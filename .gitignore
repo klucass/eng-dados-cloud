@@ -1,3 +1,5 @@
 dados
 env
 /.aws
+terraform
+*.tf
