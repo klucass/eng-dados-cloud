@@ -13,7 +13,7 @@ Em seguida, o arquivo, que tem cerca de 3Gb de tamanho, com mais de 5 milhões d
 
 Para fazer isso, criei um ambiente de Cluster usando AWS RMR, que é o serviço da Amazon para processamento MapReduce e usei o PySpark rodando em um JupyterNotebook criado para o cluster. O script para processamento do arquivo está em [job_spark_enem_csv_to_pq.py](job_spark_enem_csv_to_pq.py)
 
-Alternativamente é possível usar o AWS Glue para o processamento de Big Data de forma serverless. Vide [glue_job_enem.py]()
+Alternativamente é possível usar o AWS Glue para o processamento de Big Data de forma serverless. Vide [glue_job_enem.py](glue_job_enem.py)
 
 ###  🔬 **Analisando os dados com AWS Athena**
 
